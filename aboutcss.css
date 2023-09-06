@@ -1,0 +1,110 @@
+.carousel {
+    position: relative;
+  }
+  .checkpadding{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 0%;
+  }
+  
+  .grid-container {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .grid-item {
+    
+    position: relative;
+  }
+  
+  .grid-item img {
+    border-radius: 30px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    border-radius: 0px 0px 30px 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.61);
+    padding: 10px;
+  }
+  
+  .content p {
+    color: #ffae00da;
+    text-align: center;
+  }
+  
+  .content button {
+    float: right;
+  }
+  
+  .btn1 {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 14px;
+  
+    border: 2px solid #ffae00da;
+    background-color: transparent;
+    color: #ffae00da;
+    padding: 4px 12px;
+    
+   
+  }
+  
+  .btn1:hover {
+    background-color: #1b1a1a;
+    border: 2px solid #ffffffda;
+  }
+  .tt1{
+    color: #ffffffda;
+    cursor:default;
+  }
+  .tt1:hover{
+    color: #ffae00da;
+    
+  }
+  
+  .tt2{
+    color: #ffffffda;
+    cursor:default;
+  }
+  .tt2:hover{
+    color: #ffae00da;
+    
+  }
+  
+  .tt3{
+    color: #ffffffda;
+    cursor:default;
+  }
+  .tt3:hover{
+    color: #ffae00da;
+    
+  }
+  
+  .gradient-background {
+    background: linear-gradient(300deg, #07070e, #03050e, #171724);
+    background-size: 180% 180%;
+    animation: gradient-animation 2s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
